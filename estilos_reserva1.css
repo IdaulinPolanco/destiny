@@ -1,0 +1,84 @@
+  /* Estilos básicos */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333333;
+}
+.containerex{
+display : flex;
+align-items: center; 
+padding: 10px;
+max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);}
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    text-align: center;
+    color: #008cba;
+}
+.restaurant-info {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.restaurant-info img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+.restaurant-info p {
+    color: #666666;
+    margin: 0.5rem 0;
+}
+.reservation-form {
+    margin-top: 2rem;
+}
+.form-group {
+    margin-bottom: 1.5rem;
+}
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #333333;
+}
+.form-group input[type="date"],
+.form-group input[type="time"],
+.form-group select {
+    width: 100%;
+    padding: 0.75rem;
+    font-size: 1rem;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+}
+.form-group input[type="date"]:focus,
+.form-group input[type="time"]:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #008cba;
+}
+.submit-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #a70808;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.submit-btn:hover {
+    background-color: #008cba;
+}

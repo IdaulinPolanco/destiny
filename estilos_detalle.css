@@ -1,0 +1,165 @@
+/* General */
+*{font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+header {
+    background: linear-gradient(to right, #057296, #921111);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    color: #ffffff;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 15rem;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+.logo img {
+    border-radius: 50%;
+}
+.user-actions a {
+    padding: 8px 12px;
+    margin: 0 5px;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.9rem;
+    gap: 5rem;
+}
+.user-actions a:hover {
+    background-color: #0056b3;
+}
+.ege{
+    background-color: #53a6ff;
+    max-width: 600px;
+    margin: 1.5rem auto;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d4d4f8;
+    color: #000000;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Header */
+h1 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+}
+
+/* Images */
+img {
+    display: block;
+    max-width: 90%;
+    height: auto;
+    margin: 1rem auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Descriptions */
+p {
+    margin: 1rem auto;
+    max-width: 80%;
+    text-align: justify;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: 1.5rem auto;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+input, textarea, button {
+    width: calc(100% - 2rem);
+    margin: 0 1rem;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Comments */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+li {
+    background: #fff;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+strong {
+    color: #000000;
+}
+
+small {
+    color: #000000;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 0 1rem;
+    }
+
+    input, textarea, button {
+        width: calc(100% - 2rem);
+    }
+}

@@ -1,0 +1,59 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante El Buen Sabor - Reservas</title>
+    <link rel="stylesheet" href="estilos_reserva1.css">
+</head>
+<body>
+
+<div class="containerex">
+    <a href="Pagina_principal.html" ><img src="C:\xampp\htdocs\imagen del proyecto_final\logo 2.jpg" width="100" height="100" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <h1>Restaurante El Buen Sabor</h1>
+</div>
+
+    <!-- Información del restaurante -->
+    <div class="restaurant-info">
+        <img src="https://via.placeholder.com/400" alt="Imagen del restaurante">
+        <p>Ubicación: Ciudad Principal</p>
+        <p>Especialidad en comida mediterránea y sabores auténticos.</p>
+    </div>
+
+    <!-- Formulario de reserva -->
+    <form id="reservaForm" action="procesar_reserva.php" method="POST">
+        <!-- Cantidad de personas -->
+        <div class="form-group">
+            <label for="personas">Cantidad de Personas</label>
+            <select id="personas" name="cantidad_personas" required>
+                <option value="1">1 Persona</option>
+                <option value="2">2 Personas</option>
+                <option value="3">3 Personas</option>
+                <option value="4">4 Personas</option>
+                <option value="5">5 Personas</option>
+                <option value="6">6 Personas</option>
+                <option value="7">7 Personas</option>
+                <option value="8">8 Personas</option>
+                <option value="9">9 Personas</option>
+                <option value="10">10 Personas</option>
+            </select>
+        </div>
+    
+        <!-- Fecha de la reserva -->
+        <div class="form-group">
+            <label for="fecha">Fecha</label>
+            <input type="date" id="fecha" name="fecha_reserva" required>
+        </div>
+    
+        <!-- Hora de la reserva -->
+        <div class="form-group">
+            <label for="hora">Hora</label>
+            <input type="time" id="hora" name="hora_reserva" required>
+        </div>
+    
+        <button type="submit" class="submit-btn">Reservar</button>
+    </form>
+    </div>
+
+
+</body>
+</html>
